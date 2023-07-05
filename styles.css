@@ -1,0 +1,250 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #cc77dc;
+    background-color: rgb(1, 1, 33);
+  }
+  
+  section#home {
+    position: relative;
+  }
+  
+  section#home::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+  }
+  section#home {
+    position: relative;
+    height: 100vh;
+  }
+  
+  section#home::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    z-index: -1;
+  }
+  
+  section#home .container {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: #fff;
+  }
+  
+  section#home h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  section#home p {
+    font-size: 18px;
+  }
+    
+  
+  /* Header */
+  header {
+    background-color: #170123;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #80e8f3;
+    text-decoration: none;
+  }
+  
+  /* Hero section */
+  .hero {
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    color: #73d2f1;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    color: #e892eb;
+  }
+  
+  /* About section */
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  .container h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .container p {
+    margin-bottom: 20px;
+  }
+  section#portfolio {
+    position: relative;
+  }
+  
+  section#portfolio::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+  }
+  section#portfolio {
+    position: relative;
+    height: 100vh;
+  }
+  
+  section#portfolio::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image:url("https://img.freepik.com/premium-photo/top-view-dark-stylish-workplace-with-smartphone-office-supplies_67155-2963.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    z-index: -1;
+  }
+  
+  section#portfolio .container {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: #fff;
+  }
+  
+  section#portfolio h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  section#portfolio {
+    font-size: 18px;
+  }
+  section#skills {
+    padding: 50px 0;
+  }
+  
+  section#skills .skills-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  section#skills .skill {
+    width: calc(100% / 3);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  section#skills .skill img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+  
+  section#skills .skill h3 {
+    font-size: 18px;
+  }
+  
+  
+  /* Contact section */
+  form input,
+  form textarea,
+  form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  form button {
+    background-color: #4a0e94;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #666;
+  }
+  section#about {
+    position: relative;
+    height: 100vh;
+  }
+  
+  section#about::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://e0.pxfuel.com/wallpapers/846/344/desktop-wallpaper-portfolio.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    z-index: -1;
+  }
+  
+  section#about .container {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: #fff;
+  }
+  
+  section#about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  section#about p {
+    font-size: 18px;
+  }
+  
